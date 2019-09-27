@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity=""
-    tools:context=".MainActivity">
-<!--    android:background="@android:color/holo_green_light"-->
+    tools:context=".MainActivity"
+  android:background="@android:color/holo_green_light">
 
 
 
