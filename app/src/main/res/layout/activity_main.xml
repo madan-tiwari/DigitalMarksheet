@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity=""
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_green_light">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Name"
+        android:textSize="30dp"
+
+        />
+    <EditText
+        android:id="@+id/etAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Android Marks"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+
+        />
+    <EditText
+        android:id="@+id/etIOT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IOT Marks"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+
+        />
+    <EditText
+        android:id="@+id/etWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Web API Marks"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+
+        />
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Calculate"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+</LinearLayout>
